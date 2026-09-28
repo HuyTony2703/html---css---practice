@@ -3,3 +3,8 @@ h1 {
     color: rgba (115, 245, 23, 100%);
     text-align: center;
 }
+html {
+    background: url('/1.png');
+    background-size: cover;
+    background-repeat: no repeat;
+}   
