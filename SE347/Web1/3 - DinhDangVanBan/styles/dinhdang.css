@@ -1,0 +1,66 @@
+/* CSS Document */
+:root{
+  --sm-width: 90%;
+  --md-width: 70%;
+  --lg-width: 50%;
+  --sm-font-size: 10px;
+  --md-font-size: 12px;
+  --lg-font-size: 14px;
+}
+div {
+  width: 50%;
+  margin: 50px auto;
+  font-size: 14pt;
+}
+h1 {
+  color: #04A900;
+  text-align: center;
+}
+.indamgachchan {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.innghieng {
+  font-style: italic;
+}
+.chudo {
+  color: red;
+}
+.code {
+  padding: 15px 50px;
+  background-color: #BFBFBF;
+  color: #0000FF;
+  line-height: 30px;
+}
+@media screen and (max-width: 600px) {
+div {
+  width: var(--sm-width);
+}
+.code{
+  font-size: var(--sm-font-size);
+}
+}
+@media screen and (min-width: 600px) {
+div {
+  width: var(--md-width);
+}
+.code{
+  font-size: var(--md-font-size);
+}
+}
+@media screen and (min-width: 768px) {
+div {
+  width: var(--md-width);
+}
+.code{
+  font-size: var(--md-font-size);
+}
+}
+@media screen and (min-width: 992px) {
+div {
+  width: var(--lg-width);
+}
+.code{
+  font-size: var(--lg-font-size);
+}
+}
