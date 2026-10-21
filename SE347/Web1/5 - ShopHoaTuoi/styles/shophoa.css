@@ -1,0 +1,44 @@
+/* CSS Document */
+@font-face {
+  font-family: tieude;
+  src: url(../fonts/UTM%20Wedding%20K&T.ttf);
+}
+body {
+  background: url(../images/binh-hoa.jpg) left 100px no-repeat fixed, url(../images/nen-hoa-hong.jpg) right bottom no-repeat fixed;
+}
+h1 {
+  font-family: tieude;
+  margin-top: 20px;
+  font-size: 40pt;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px #BD0099, 0 0 25px #F100BB, 0 0 5px #E00068;
+}
+#nd {
+  width: 450px;
+  margin: 0 auto;
+}
+.nenhong_chutrang {
+  background-color: #EE61A6;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.bullet_hoatim {
+  list-style-image: url(../images/bullet-hoa-tim.png);
+}
+.bullet_tronhong {
+  list-style-image: url(../images/bullet-tron-hong.png);
+}
+.copyright {
+  font-size: smaller;
+  font-style: italic;
+  color: #6A00C5;
+}
+a {
+  color: #6A00C5;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+  text-shadow: 1px 1px 1px #000000;
+  text-decoration: underline;
+}
