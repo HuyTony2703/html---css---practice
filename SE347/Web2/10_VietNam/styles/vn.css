@@ -1,0 +1,82 @@
+/* CSS Document */
+body {
+    font: 12pt/15pt Arial, sans-serif;
+    background: url(../images/co-vietnam.png) center center no-repeat fixed;
+    margin: 8px;
+}
+.tieude {
+    color: red;
+    text-align: center;
+}
+.hinhtrai {
+    float: left;
+    margin-right: 10px;
+}
+.hinhphai {
+    float: right;
+    margin-left: 10px;
+}
+.hinhgiua {
+    text-align: center;
+}
+.vedautrang {
+    text-align: right;
+}
+h3 {
+    color: white;
+    padding: 5px;
+    margin: 15px 0px;
+    font-size: 24px;
+    line-height: 29px;
+    clear: both;
+}
+.nendo {
+    background-color: red;
+}
+.nentim {
+    background-color: #9900cc;
+}
+.nenhong {
+    background-color: #ff00cc;
+}
+p {
+    text-align: justify;
+}
+p.dropcap::first-letter {
+    float: left;
+    margin: 15px 35px 15px 0px;
+    color: yellow;
+    text-shadow: 2px 2px 2px red;
+    font-size: 70pt;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+p.chuthichhinh {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+#nutTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20pt;
+    color: white;
+    background-color: rgba(255,0,0,0.5);
+    padding: 10px;
+    border: 0px;
+    width: 50px;
+    border-radius: 100%;
+}
+#sg {
+    column-count: 3;
+    column-rule-style: dashed;
+    column-rule-color: darkgray;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+audio { display: block; margin: 0 auto 16px; }
+.initial { width: 57px; float: left; margin: 5px 14px 0 0; }
+img[usemap] { margin-left: 50px; margin-right: 50px; }
