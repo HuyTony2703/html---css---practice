@@ -1,0 +1,48 @@
+/* CSS Document */
+body{
+    background: url(../images/nguyen-tac-trong-thiet-ke-do-hoa.jpg)left top repeat-x fixed,
+                url(../images/truong_day_thiet_ke_do_hoa.jpg) 20% bottom no-repeat fixed;
+    margin-top:120px;
+    font: 12pt Arial, sans-serif;
+}
+#myTable th:first-child { width: 48px; }
+#myTable th:nth-child(2) { width: 248px; }
+#myTable tr { height: 33px; }
+.tieude{
+    color:#0DBB00;
+    text-align:center;
+    text-shadow: 1px 1px 2px #1A7300;
+}
+#myTable{
+    width: 545px;
+    border: 5px solid #0DBB00;
+    margin: 0px auto;
+}
+th, td{
+    border: 1px solid #0DBB00;
+    padding: 5px;
+}
+th{
+    color:#FFFFFF;
+}
+tr{
+    text-align:center;
+}
+td:nth-child(2){
+    text-align: left;
+}
+tr:first-child, tr:nth-child(2){
+    background-color:#0DBB00 !important;
+}
+tr:last-child{
+    background-color: #ff9900 !important;
+}
+tr:nth-child(odd){
+    background-color:rgba(255,255,255,0.5);
+}
+tr:nth-child(even){
+    background-color:rgba(121,255,252,0.5);
+}
+.tieude { color: #00ff00; text-shadow: none; }
+#myTable, th, td { border-color: #00ff00; }
+tr:first-child, tr:nth-child(2) { background-color: #00ee00 !important; }
