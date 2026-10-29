@@ -1,0 +1,43 @@
+/* CSS Document */
+body{
+    background: url(../images/rose.png) 10% bottom no-repeat fixed,
+                url(../images/kim-tea-hee.png) left bottom no-repeat fixed,
+                url(../images/nen-hoa-hong.png) right bottom no-repeat fixed;
+    background-color:#a00000;
+    background-size: 300px, 400px, auto;
+    font: 12pt/15pt Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#FDCFFF;
+    margin-top:50px;
+}
+.mytable{
+    width:720px;
+    margin:0 0 0 25%;
+    border: 1px #FDCFFF solid;
+    border-collapse:collapse;
+}
+td{
+    padding: 5px;
+}
+.bullet_trai_tim {
+    list-style:none;
+    color:#FF0000;
+    font-weight:bold;
+}
+#nd{
+    column-count: 2;
+    padding: 20px;
+}
+#break{
+    margin-top: 0;
+    break-before: column;
+}
+#nd > ul { margin: 0; padding-left: 10px; }
+#nd ul ul, #nd ol { padding-left: 35px; margin: 16px 0; }
+#nd { column-gap: 30px; }
+.mytable tr:first-child td:first-child { height: 70px; }
+.mytable tr:nth-child(2) td { height: 83px; }
+.mytable h1, .mytable h2 { margin: 0; }
+img{
+    max-width:100%;
+    height:auto;
+}
