@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="vi">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Form đăng nhập</title><link rel="stylesheet" href="styles/dangnhap.css"><script src="scripts/dangnhap.js" defer></script></head>
+<body>
+<form id="form1" novalidate>
+  <table id="mytable">
+    <tr><td colspan="2"><h1>Form đăng nhập</h1></td></tr>
+    <tr><td class="nhan"><label for="txtUser">Tên người dùng</label></td><td><input class="txt" id="txtUser" name="txtUser" autofocus autocomplete="username"></td></tr>
+    <tr><td class="nhan"><label for="txtPass">Mật khẩu</label></td><td><input class="txt" id="txtPass" name="pass" type="password" autocomplete="current-password"></td></tr>
+    <tr><td colspan="2" class="giua"><button class="btn" type="submit">Đăng nhập</button></td></tr>
+    <tr><td colspan="2" class="giua"><p id="lblThongBao" role="status" aria-live="polite"></p></td></tr>
+  </table>
+</form>
+</body></html>
