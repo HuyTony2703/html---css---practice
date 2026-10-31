@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Phiếu đăng ký</title><link rel="stylesheet" href="styles/dangky.css"><script src="scripts/dangky.js" defer></script></head>
+<body><h1 class="tieude">Phiếu đăng ký</h1>
+<form id="frmPhieuDangKy"><table class="mytable">
+<tr><td><label for="txtHoTen">Họ tên</label></td><td><input class="txt" id="txtHoTen" name="txtHoTen" size="30" required autofocus></td></tr>
+<tr><td><label for="txaDiaChi">Địa chỉ</label></td><td><textarea class="txt" id="txaDiaChi" name="txaDiaChi" cols="30" rows="5" required></textarea></td></tr>
+<tr><td><label for="txtEmail">Email</label></td><td><input class="txt" id="txtEmail" name="txtEmail" type="email" required></td></tr>
+<tr><td><label for="txtDienThoai">Điện thoại</label></td><td><input class="txt" id="txtDienThoai" name="txtDienThoai" type="tel" required></td></tr>
+<tr><td>Giới tính</td><td><label><input type="radio" id="nam" name="rdoGioiTinh" value="Nam" checked> Nam</label> <label><input type="radio" id="nu" name="rdoGioiTinh" value="Nữ"> Nữ</label></td></tr>
+<tr><td><label for="selNgheNghiep">Nghề nghiệp</label></td><td><select class="txt" id="selNgheNghiep" name="selNgheNghiep"><option>Sinh viên</option><option>Bác sĩ</option><option>Kỹ sư</option><option>Giáo viên</option><option>Khác</option></select></td></tr>
+<tr><td><label for="selSanPham">Chọn sản phẩm</label></td><td><select class="txt" id="selSanPham" name="selSanPham" multiple size="4"><option selected>Kem đánh răng</option><option>Dầu gội</option><option>Sữa tắm</option><option>Bột giặt</option></select></td></tr>
+<tr><td><label for="numDuDoan">Dự đoán số người tham gia</label></td><td><input class="txt" id="numDuDoan" name="numDuDoan" type="number" min="1" step="1" value="1" required></td></tr>
+<tr><td colspan="2" class="buttons"><button class="btn" type="submit">Đăng ký</button> <button class="btn" type="reset">Làm lại</button><p id="lblThongBao" role="status"></p></td></tr>
+</table></form></body></html>
