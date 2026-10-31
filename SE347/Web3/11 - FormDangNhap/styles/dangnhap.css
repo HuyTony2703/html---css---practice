@@ -1,0 +1,9 @@
+body { font: 14px/20px Arial, Helvetica, sans-serif; }
+h1 { color: red; text-align: center; font-size: 30px; margin: 10px 0 22px; }
+#mytable { width: 504px; height: 254px; padding: 10px 45px 40px; margin: 100px auto; border: 2px dotted red; border-radius: 12px; background: url('../hinh/login.jpg') right center / auto 200px no-repeat; }
+.nhan { text-align: right; white-space: nowrap; }
+.txt { box-sizing: border-box; width: 162px; border: 1px dotted red; border-radius: 20px; background: rgba(255,0,0,.25); padding: 3px 6px; margin: 2px; }
+.btn { background: linear-gradient(#900,red); border: 2px outset #ddd; border-radius: 10px; color: white; font-weight: bold; cursor: pointer; }
+.giua { text-align: center; }
+#lblThongBao { color: red; margin: 8px 0; min-height: 20px; }
+@media(max-width:540px) { #mytable { width: 100%; padding-left: 10px; padding-right: 10px; } }
