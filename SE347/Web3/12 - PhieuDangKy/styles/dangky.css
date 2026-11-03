@@ -1,0 +1,8 @@
+body { font-family: Arial, Helvetica, sans-serif; color: #0062a1; font-weight: bold; margin: 20px auto; }
+.tieude { text-shadow: 1px 1px 2px #045798,-2px -2px 4px #0065f7; color: white; text-align: center; margin: 24px 0; }
+.txt { background: rgba(0,131,246,.25); padding: 5px; border: 1px dotted #0268da; border-radius: 10px; font: 14px Arial,sans-serif; max-width: 100%; box-sizing: border-box; }
+.btn { background: linear-gradient(#0268da,#009ec9); color: white; font-weight: bold; border-radius: 10px; padding: 5px; border: 2px solid #1be2ff; cursor: pointer; }
+.mytable { width: 50%; height: 570px; margin: 0 auto 30px; border-spacing: 0; box-shadow: 6px 6px 10px #398de0,-2px -2px 8px #def0ff; background: white url('../hinh/khuyen-mai.png') center bottom / contain no-repeat; border-radius: 12px; padding: 4px 10px 45px; }
+td { padding: 7px; } td:first-child { text-align: right; width: 45%; } td:nth-child(2) { width: 55%; }
+.buttons { text-align: center !important; } #lblThongBao:empty { display: none; }
+@media(max-width:900px) { .mytable { width: 90%; } }
