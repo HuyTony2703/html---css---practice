@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Đặt tour</title><link rel="stylesheet" href="styles/dattour.css"><script src="scripts/dattour.js" defer></script></head>
+<body><h1>ĐĂNG KÝ DU LỊCH</h1><form id="frmDatTour"><table class="mytable">
+<tr><td><label for="txtHoTen">Họ tên</label></td><td><input class="txt" id="txtHoTen" name="txtHoTen" size="25" required autofocus></td></tr>
+<tr><td><label for="txaDiaChi">Địa chỉ</label></td><td><textarea class="txt" id="txaDiaChi" name="txaDiaChi" rows="2" cols="45" required></textarea></td></tr>
+<tr><td><label for="txtDienThoai">Điện thoại</label></td><td><input class="txt" id="txtDienThoai" name="txtDienThoai" type="tel" required></td></tr>
+<tr><td><label for="chkKhachVN">Khách Việt Nam</label></td><td><input type="checkbox" id="chkKhachVN" name="chkKhachVN" checked></td></tr>
+<tr><td><label for="selChonTour">Chọn tour</label></td><td><select class="txt" id="selChonTour" name="selChonTour">
+<optgroup label="Miền Bắc"><option>Hà Nội - Hạ Long - Sapa</option><option>Hà Nội - Chùa Hương - Ninh Bình</option><option>Hà Nội - Cát Bà - Tuần Châu</option></optgroup>
+<optgroup label="Miền Trung"><option>Huế - Bạch Mã - Đà Nẵng</option><option>Nha Trang - Đà Lạt</option><option>Buôn Mê Thuột - Gia Lai - Kontum</option></optgroup>
+<optgroup label="Miền Nam"><option>TpHCM - Cần Thơ - Cà Mau</option><option>Phú Quốc - Côn Đảo</option></optgroup></select></td></tr>
+<tr><td>Phương tiện</td><td><label><input type="radio" name="phuongtien" value="Máy bay" checked> Máy bay</label> <label><input type="radio" name="phuongtien" value="Xe du lịch"> Xe du lịch</label> <label><input type="radio" name="phuongtien" value="Tự túc"> Tự túc</label></td></tr>
+<tr><td colspan="2"><fieldset><legend>Số lượng khách đoàn</legend><label for="numNguoiLon">Người lớn</label> <input class="txt" id="numNguoiLon" name="numNguoiLon" type="number" min="1" step="1" value="1" required> <label for="numTreEm">Trẻ em</label> <input class="txt" id="numTreEm" name="numTreEm" type="number" min="0" step="1" value="1" required></fieldset></td></tr>
+<tr><td><label for="txaGhiChu">Ghi chú thêm</label></td><td><textarea class="txt" id="txaGhiChu" name="txaGhiChu" rows="4" cols="45"></textarea></td></tr>
+<tr><td colspan="2" class="buttons"><button class="btn" type="submit">Đồng ý</button><p id="lblThongBao" role="status"></p></td></tr>
+</table></form></body></html>
