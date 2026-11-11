@@ -1,0 +1,72 @@
+/* CSS Document */
+body {
+  margin: 50px 200px;
+  background: #000000 url(../images/phu-quoc-1.png) center no-repeat fixed;
+  font: 14px/20px Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+}
+.tieude {
+  color: #FFFF00;
+  text-align: center;
+  line-height: 30pt;
+}
+.chudo {
+  color: #FF0000;
+}
+.chucam {
+  color: #FF9900;
+}
+.chuxanhla {
+  color: #00FF00;
+}
+.chuhong {
+  color: #FF00FF;
+}
+p {
+  text-indent: 50px;
+}
+p.intro {
+  text-indent: 0px;
+  font-style: italic;
+  font-size: smaller;
+}
+a.linktop {
+  font-size: 16pt;
+  font-weight: bold;
+  background-color: #FF00FF;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 100%;
+}
+a.linktop:hover {
+  color: #0000FF;
+  background-color: #FF0;
+}
+a.linktop:active {
+  color: #FF0000;
+  background-color: #f98700;
+}
+a.linktop:visited {
+  color: #fff;
+  background-color: #8c258c;
+}
+@media screen and (max-width: 600px) {
+body {
+  margin: 0px 20px;
+}
+}
+@media screen and (min-width: 600px) {
+body {
+  margin: 0px 50px;
+}
+}
+@media screen and (min-width: 768px) {
+body {
+  margin: 0px 100px;
+}
+}
+@media screen and (min-width: 992px) {
+body {
+  margin: 0px 200px;
+}
+}
